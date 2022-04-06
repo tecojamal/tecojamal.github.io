@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+body {
+    max-width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Grape Nuts';
+    font-size: 2.75rem;
+    padding-top: 1.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Merriweather';
+}
+
+h4 {
+    font-family: 'Grape Nuts';
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border-bottom: solid 1px darkred;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+    margin: auto 10px;
+}
+
+#logo {
+    font-family: 'Merriweather';
+    font-size: 3rem;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    margin-right: 2rem;
+}
+
+li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.main {
+    position: relative;
+    top: 80px;
+    width: 100%;
+}
+
+.image-container {
+    width: 150px;
+    height: auto;
+    margin: 1.5rem auto 1rem;
+}
+
+/* Intro */
+#intro {
+    background-image: url("./imagens/background3.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height: 550px;
+}
+
+#intro h1 {
+    font-size: 5rem;
+    color: darkgreen;
+    font-family: 'Grape Nuts';
+    padding-top: 7.5rem;
+}
+
+#intro p {
+    font-family: 'Grape Nuts';
+    color: darkgreen;
+    max-width: 75%;
+    margin: 0 auto;
+    font-size: 1.75rem;
+}
+
+#contup {
+    background-image: url('./imagens/background2.1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+}
+
+#conteudo {
+    color: white;
+}
+
+#casas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.casa {
+    flex: 1 1 500px;
+}
+
+.casa p {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+#grif {
+    background-image: url('./imagens/grifinoria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: gold;
+}
+
+#slyt {
+    background-image: url('./imagens/sonserina.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: silver;
+}
+
+#huff {
+    background-image: url('./imagens/lufalufa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#rave {
+    background-image: url('./imagens/corvinal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: silver;
+}
+
+#contdown {
+    background-image: url('./imagens/background2.2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height: 6rem;
+}
+
+/* Métodos */
+#metodos {
+    background-image: url(./imagens/background4.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    color: orange;
+}
+
+#quadros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 3px;
+}
+
+.quadro {
+    flex: 1 1 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2rem;
+    max-width: 350px;
+}
+
+.quadro p {
+    max-width: 90%;
+    padding: 0.75rem 0 1rem;
+    margin: 0 auto;
+}
+
+#yout {
+    border: solid 3px red;
+    transition: border .2s;
+}
+
+#yout:hover {
+    border: solid 7px red;
+}
+
+#weed {
+    border: solid 3px green;
+    transition: border .2s;
+}
+
+#weed:hover {
+    border: solid 7px green;
+}
+
+#cere {
+    border: solid 3px blue;
+    transition: border .2s;
+}
+
+#cere:hover {
+    border: solid 7px blue;
+}
+
+/* Sobre Nós */
+#sobre {
+    background-image: url(./imagens/background5.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#sobre h2, #sobre h4 {
+    background-color: white;
+    padding: .3rem;
+    border: solid 3px maroon;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#sobre h2 {
+    max-width: 30%;
+    position: relative;
+    top: 10px;
+}
+
+#sobre h4 {
+    max-width: 80%;
+    position: relative;
+    top: 20px;
+}
+
+.eus {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 3px;
+    color: darkblue;
+}
+
+.eu {
+    border: solid 5px maroon;
+    border-radius: 230px;
+    margin: 2rem;
+    width: 460px;
+    height: 460px;
+}
+
+.eu h3 {
+    margin-top: 3rem;
+}
+
+.eu p {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#blem {
+    background-color: lightyellow;
+}
+
+#cristao {
+    background-color: lightcyan;
+}
+
+#bebo {
+    background-color: lightpink;
+}
+
+#festa {
+    background-color: lightgray;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    height: 60px;
+}
+
+footer p {
+    margin: 0 1.2rem;
+}
